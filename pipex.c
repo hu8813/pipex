@@ -6,7 +6,7 @@
 /*   By: huaydin <huaydin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 13:14:29 by huaydin           #+#    #+#             */
-/*   Updated: 2022/11/17 23:18:49 by huaydin          ###   ########.fr       */
+/*   Updated: 2022/11/19 22:28:55 by huaydin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,7 +87,7 @@ void	execute_last(int *fd, char **command2, char **envp, char **argv)
 
 void	check_files(char **argv)
 {
-	if (access(argv[1], F_OK | R_OK) != -1 && access(argv[4], F_OK) != -1)
+	if (access(argv[1], F_OK | R_OK) != -1)
 		return ;
 	perror("Error: ");
 }
