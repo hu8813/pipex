@@ -6,7 +6,7 @@
 /*   By: huaydin <huaydin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 13:14:29 by huaydin           #+#    #+#             */
-/*   Updated: 2022/11/20 06:38:54 by huaydin          ###   ########.fr       */
+/*   Updated: 2022/11/20 06:41:49 by huaydin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ static void	ft_error(void)
 	exit(errno);
 }
 
-void	execute_first(int *fd, char **envp, char **argv)
+static void	execute_first(int *fd, char **envp, char **argv)
 {
 	pid_t	pid_1;
 	int		file1;
@@ -46,7 +46,7 @@ void	execute_first(int *fd, char **envp, char **argv)
 	waitpid(pid_1, NULL, WNOHANG | WUNTRACED);
 }
 
-void	execute_last(int *fd, char **envp, char **argv)
+static void	execute_last(int *fd, char **envp, char **argv)
 {
 	pid_t	pid_2;
 	int		file2;
@@ -73,7 +73,7 @@ void	execute_last(int *fd, char **envp, char **argv)
 	waitpid(pid_2, NULL, WUNTRACED);
 }
 
-void	chec_args(char **argv)
+static void	chec_args(char **argv)
 {
 	if (!*argv[2] || !*argv[3])
 	{
