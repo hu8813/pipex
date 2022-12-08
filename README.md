@@ -1,15 +1,16 @@
-# pipex
+What is pipex?
+Pipex is a school project of 42 
 
-Useful Resources for understanding the Subject:
+What is pipe?
+Pipe is a method of inter-process communication (IPC) in the Unix operating system. It allows processes to communicate with each other by exchanging data through a "pipe" that acts as a buffer. This allows processes to run concurrently and asynchronously, allowing for more efficient use of system resources.
 
-https://www.codequoi.com/en/pipe-an-inter-process-communication-method/
+What are some useful resources for understanding pipex?
+Here are some useful resources for learning more about pipex and its use in programming:
 
-https://www.codequoi.com/en/creating-and-killing-child-processes-in-c/
-
-https://www.codequoi.com/en/errno-and-error-management-in-c/
-
-https://csnotes.medium.com/pipex-tutorial-42-project-4469f5dd5901
-
-https://youtu.be/6xbLgZpOBi8
-
-https://youtu.be/cex9XrZCU14
+Pipe: An Inter-Process Communication Method
+Creating and Killing Child Processes in C
+Errno and Error Management in C
+Pipex Tutorial
+Pipex Video Tutorial
+Another Pipex Video Tutorial
+These resources provide detailed explanations of how pipex works and how to use it in your own programs. By understanding the principles behind pipex, you can more effectively use this powerful tool to improve the performance and efficiency of your programs.
