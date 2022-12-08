@@ -3,9 +3,9 @@
 It's a 42 school project
 
 ## What is pipe?
-Pipex is a method of inter-process communication (IPC) in the Unix operating system. It allows processes to communicate with each other by exchanging data through a "pipe" that acts as a buffer. This allows processes to run concurrently and asynchronously, allowing for more efficient use of system resources.
+Pipe is a method of inter-process communication (IPC) in the Unix operating system. It allows processes to communicate with each other by exchanging data through a "pipe" that acts as a buffer. This allows processes to run concurrently and asynchronously, allowing for more efficient use of system resources.
 
-## Some useful resources for understanding pipex:
+## Some useful resources for understanding pipe, fork etc.:
 
 Here are some useful resources for learning more about pipe and its use in programming:
 
