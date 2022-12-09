@@ -73,7 +73,7 @@ static void	execute_last(int *fd, char **envp, char **argv)
 	waitpid(pid_2, NULL, WUNTRACED);
 }
 
-static void	chec_args(char **argv)
+static void	check_args(char **argv)
 {
 	if (!*argv[2] || !*argv[3])
 	{
@@ -94,7 +94,7 @@ int	main(int argc, char **argv, char **envp)
 		write(2, "Bad usage\nTry './pipex file1 cmd1 cmd2 file2'\n", 47);
 		exit(EXIT_FAILURE);
 	}
-	chec_args(argv);
+	check_args(argv);
 	if (pipe(fd) == -1)
 	{
 		perror("Error: ");
