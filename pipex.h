@@ -17,7 +17,7 @@
 # include <errno.h>     /* errno */
 # include <sys/wait.h>  /* waitpid */
 # include <unistd.h>    /* write, access */
-# include <stdlib.h>    /* malloc, exit */
+# include <stdlib.h>    /* exit */
 # include <fcntl.h>     /* open */
 
 #endif
