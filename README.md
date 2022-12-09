@@ -4,8 +4,6 @@ Pipe is a method of inter-process communication (IPC) in the Unix operating syst
 
 Here is an example of a simple program that uses a pipe in C:
 
-Copy code
-
 ```c
 #include <stdio.h>
 #include <stdlib.h>
