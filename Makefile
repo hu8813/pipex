@@ -14,7 +14,7 @@ CC		= cc
 NAME	= pipex
 SRC		= pipex.c
 FLAGS	= -c $< -o $@
-CFLAGS	= -Wall -Wextra -Werror -g
+CFLAGS	= -Wall -Wextra -Werror
 OBJ		= $(SRC:.c=.o)
 
 .PHONY:	all clean fclean re
